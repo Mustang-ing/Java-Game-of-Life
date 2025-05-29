@@ -1,0 +1,15 @@
+<automate>
+    <Dimensionalite>1D</Dimensionalite>
+    <Taille>
+        <dimension>30</dimension>
+    </Taille>
+    <Regle> SI(EQ(COMPTER(G4), 1), 1, 0) </Regle> <!--la regle du trinagle de Sierpiński-->
+    <EtatInitial>(15)</EtatInitial>  <!-- pour une initialisation aleatoire -->
+    <!--<EtatInitial>(0,15)</EtatInitial>--> <!--si vous voulez initialisez des celules precices -->
+    <!--<Plan>5</Plan>--> <!--pour des dimenssions >= 3 -->
+    <Voisinages>
+        <Voisinage>G0</Voisinage>
+        <Voisinage>G1</Voisinage>
+        <Voisinage>G2</Voisinage>
+    </Voisinages>
+</automate>
