@@ -59,25 +59,6 @@ Java-Game-of-Life/
 
 - Java Development Kit (JDK) 8 ou version ultérieure.
 
-## Compilation et Exécution
-
-1. Cloner le dépôt :
-   ```
-   git clone https://github.com/Mustang-ing/Java-Game-of-Life.git
-   ```
-2. Se rendre dans le répertoire du projet :
-   ```
-   cd Java-Game-of-Life
-   ```
-3. Compiler le code source :
-   ```
-   javac src/*.java
-   ```
-4. Exécuter l'application :
-   ```
-   java -cp src Main
-   ```
-
 ## Utilisation
 
 Avant de lancer, la configuration, il est nécessaire de configurer le fichier de confifguration **automate.xml** localisé dans le dossier Fichiers.
